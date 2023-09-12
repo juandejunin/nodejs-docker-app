@@ -2,7 +2,7 @@
 FROM node:18
 
 #Definir el directorio de trabajo
-WORKDIR /the/workdir/path
+WORKDIR /home/app
 
 #Copiar los archivos del proyecto
 COPY . .
